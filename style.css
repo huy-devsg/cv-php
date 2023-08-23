@@ -1,7 +1,7 @@
 html
 {
-    width: 50%;
-    max-width:50%;
+    width: 45%;
+    max-width:45%;
     margin: auto;
 }
 @font-face {
@@ -104,11 +104,11 @@ p
 }
 
 .pageCV:nth-child(1) .col_left .h-curent {
-    padding-bottom: 0;
+    padding-bottom: 50px;
 }
 
 .pageCV:nth-child(1) .col_right .h-curent {
-    padding-bottom: 0;
+    padding-bottom: 50px;
 }
 
 .pageCV:nth-child(n+2) .col_left .h-curent {
@@ -165,7 +165,7 @@ p
 }
 
 .info1_col_bottom,.info2_col_bottom {
-    padding: 0 20px;
+    padding: 0;
     max-width: 100%
 }
 
