@@ -46,15 +46,19 @@ p
 
 .col_top .info1_col_top {
     min-height: 120px;
-    color: #fff
+    color: #fff;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content:center;
+    gap: 10px;
+    margin: auto 0;
 }
 
 .col_top .info1_col_top .namerel-info {
     width: 100%;
     max-width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    margin: auto 0
+    margin: 0
 }
 
 .info1_col_top .name-info {
@@ -104,11 +108,11 @@ p
 }
 
 .pageCV:nth-child(1) .col_left .h-curent {
-    padding-bottom: 50px;
+    padding-bottom: 0;
 }
 
 .pageCV:nth-child(1) .col_right .h-curent {
-    padding-bottom: 50px;
+    padding-bottom: 0;
 }
 
 .pageCV:nth-child(n+2) .col_left .h-curent {
@@ -141,12 +145,12 @@ p
     width: 55%;
     max-width: 55%;
     z-index: 1;
-    position: relative
+    position: relative;
 }
 
 .col_right .height-content {
-    padding: 60px 20px 0 0;
-    border-left: 1px solid #ddd
+    padding: 60px 20px 20px 0;
+    border-left: 1px solid #ddd;
 }
 
 .pageCV:nth-child(1) .col_right .height-content {
@@ -261,11 +265,11 @@ p
 
 
 .itemaward .listItem {
-    padding-top: 10px
+    padding-top: 20px
 }
 
 .itemRef .listItem {
-    padding-top: 10px
+    padding-top: 20px
 }
 
 .itemaward .subItem-award .item_Name {
@@ -613,7 +617,8 @@ p
     .col_top .info1_col_top .icoweb .icoweb_job {
         max-width: 100%;
         width: 100%;
-        justify-content: center
+        justify-content: center;
+        align-items: center;
     }
 
     .col_right .items_space {
