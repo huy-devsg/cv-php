@@ -25,6 +25,20 @@
 header {
     color: #000;
     text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+.avatar
+{
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: red;
+  overflow: hidden;
 }
 
 p
@@ -73,7 +87,7 @@ h2 {
     margin: 0; 
 }
 .work-experience h3, .projects h3, .education h3, .skills h3 {
-    color: #666979;
+    color: #000;
     border-bottom: solid 2.2px;
 }
 
@@ -145,6 +159,7 @@ span.spRight
 }
   </style>
     <header>
+        <div class="avatar"><img src="avatar.png" width="100%" height="100%"></div>
         <h1 style="font-size: 44px;">Huy Nguyen Thanh</h1>
         <h2 style="font-size: 26px;">Fresher Web Developer</h2>
     </header>
@@ -158,19 +173,6 @@ span.spRight
     </section>
     <section class="work-experience">
         <h3>WORK EXPERIENCE</h3>
-        <div class="job">
-          <h2>Di Dong Viet Technology CO., LTD <span> - Software Technician</span></h2>
-          <div class="content-align">
-            <span>March 2022 - May 2023</span>
-            <span>Go Vap, HCMC</span>
-          </div>
-          <ul class=wrap>
-            <li>Communication and customer handling skills.</li>
-            <li>Able to work well under pressure.</li>
-            <li>Committed and passionate staff in 2022</li>
-          </ul>
-            
-        </div>
         <div class="job">
           <h2>Alta Software <span>- Front-End + PHP Developer Intern</span></h2>
           <div class="content-align">
@@ -264,31 +266,6 @@ span.spRight
            
         </div>
     </section>
-    <section class="education">
-        <h3>EDUCATION</h3>
-        <div class="school">
-          <div class="content-align">
-            <span class="spLeft">Industrial University Ho Chi Minh City<span class="spCenter"> -
-              Information Technology</span></span>
-<span class="spRight">Aug 2019 - Present</span>
-          </div></div>
-          <ul class="wrap">
-            <li>Get A, A+ in Programming subjects</li>
-
-          </ul>
-        </div>
-        <div class="school">
-          <div class="content-align">
-            <span class="spLeft">Cybersoft<span class="spCenter"> - Fullstack Developer</span></span>
-<span class="spRight">June 2023 - Present</span>
-          </div>
-            </div>
-            <ul class="wrap">
-              <li>Current GPA 85/100</li>
-
-            </ul>
-        </div>
-    </section>
     <section class="skills">
         <h3>SKILLS</h3>
         <ul class="wrap">
@@ -308,7 +285,31 @@ span.spRight
             <li>Currently in the process of preparing to study : NestJS, SocketIO, GrapQL</li>
 
             </ul>
-            </section>
-            
+     </section>
+     <section class="education">
+      <h3>EDUCATION</h3>
+      <div class="school">
+        <div class="content-align">
+          <span class="spLeft">Industrial University Ho Chi Minh City<span class="spCenter"> -
+            Information Technology</span></span>
+<span class="spRight">Aug 2019 - Present</span>
+        </div></div>
+        <ul class="wrap">
+          <li>Get A, A+ in Programming subjects</li>
+
+        </ul>
+      </div>
+      <div class="school">
+        <div class="content-align">
+          <span class="spLeft">Cybersoft<span class="spCenter"> - Fullstack Developer</span></span>
+<span class="spRight">June 2023 - Present</span>
+        </div>
+          </div>
+          <ul class="wrap">
+            <li>Current GPA 85/100</li>
+
+          </ul>
+      </div>
+  </section>       
             </body>
             </html>
