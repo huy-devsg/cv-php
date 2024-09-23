@@ -156,11 +156,38 @@ span.spRight
     font-size: 15px;
   }
 }
+table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        li
+        {
+          list-style: '- ';
+        }
+        th, td {
+            border: none; /* Xóa viền mặc định */
+            padding: 10px;
+            text-align: left;
+            position: relative; /* Để sử dụng cho đường viền */
+        }
+        th::after, td::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 1px; /* Độ dày của đường viền */
+            background-color: #ddd; /* Màu đường viền */
+        }
+        th {
+            background-color: #f2f2f2;
+        }
   </style>
     <header>
         <div class="avatar"><img src="avatar.png" width="100%" height="100%"></div>
         <h1 style="font-size: 44px;">Huy Nguyen Thanh</h1>
-        <h2 style="font-size: 26px;">Fresher Web Developer</h2>
+        <h2 style="font-size: 26px;">Fullstack Web Developer</h2>
     </header>
     <section class="contact">
         <ul>
@@ -173,20 +200,150 @@ span.spRight
     <section class="work-experience">
         <h3>WORK EXPERIENCE</h3>
         <div class="job">
-          <h2>Alta Software <span>- Front-End + PHP Developer Intern</span></h2>
+          <h2>DI DONG VIET TECHNOLOGY CO., LTD<span> - Backend Developer</span></h2>
           <div class="content-align">
-            <span>Nov 2021 - Dec 2021</span>
-            <span>Tan Phu, HCMC</span>
+            <div>
+              <span>Nov 2023 - August 2024</span><span> (10 months)</span>
+
+            </div>
+            <span>District 1, HCMC</span>
           </div>
           <ul class=wrap>
-            <li>Converted design concepts and wireframes into well-crafted code using HTML, CSS, and WordPress.</li>
-            <li>Design and develop E-commerce website using HTML, CSS, PHP</li>
+           <li>
+            Developed responsive and user-friendly interfaces for e-commerce platforms.
+
+           </li>
+           <li>
+            Implemented dynamic pricing and secure deposit management systems.
+
+           </li>
+           <li>
+            Integrated multiple payment gateways (ZaloPay, Viettel Money, OnePay, Payoo) ensuring compliance with security standards.
+
+           </li>
+           <li>
+            Optimized search features using Elasticsearch for better performance and relevance.
+
+           </li>
+           <li>
+            Participated in bug fixing and regular maintenance to ensure website stability.
+
+           </li>
+           <li>
+            Assisted in deployment processes and managed CI/CD pipelines.
+
+           </li>
+           <li>
+            Received mentorship from senior developers and collaborated with cross-functional teams.
+           </li>
         
           </div>
+          <div class="job">
+            <h2>Alta Software<span> - Front-End / PHP Developer Intern</span></h2>
+            <div class="content-align">
+              <div>
+                <span>Nov 2021 - Dec 2021</span><span> (3 months)</span>
+
+              </div>
+
+              <span>Tan Phu, HCMC</span>
+            </div>
+            <ul class=wrap>
+              <li>Converted design concepts and wireframes into well-crafted code using HTML, CSS, and WordPress.</li>
+              <li>Design and develop E-commerce website using HTML, CSS, PHP</li>
+          
+            </div>
             </div>
     </section>
     <section class="projects">
-        <h3>PROJECTS</h3>
+      <h3>PROJECTS WEBSITE E-COMMERCE DIDONGVIET</h3>
+      <div class="project">
+          <table border="1" style="width: 100%;" class="tableProject">
+            <tr>
+                <th style="width:20%">Main features</th>
+                <th style="width:60%">Detailed Description</th>
+                <th>Technologies Used</th>
+            </tr>
+            <tr>
+                <td>Frontend Development</td>
+                <td>
+                    Developed user interfaces for:
+                    <ul>
+                        <li>Homepage featuring highlighted products</li>
+                        <li>Product slider to attract attention</li>
+                        <li>Product detail pages with descriptions and reviews</li>
+                        <li>Shopping cart and checkout process for user-friendliness</li>
+                    </ul>
+                </td>
+                <td>HTML5, SCSS, Antd, NextJS</td>
+            </tr>
+            <tr>
+                <td>Pricing and Deposit Features</td>
+                <td>
+                    Developed and optimized features such as:
+                    <ul>
+                        <li>Real-time price updates</li>
+                        <li>Deposit programs for hot products</li>
+                        <li>User notifications for special promotions</li>
+                    </ul>
+                </td>
+                <td>NestJS, Redis Cache, RabbitMQ</td>
+            </tr>
+            <tr>
+                <td>Payment Gateway Integration</td>
+                <td>
+                    Integrated payment gateways to support transactions:
+                    <ul>
+                      <li>OnePay for comprehensive payment solutions</li>
+                      <li>Payoo for easy online payments</li>
+                        <li>ZaloPay for quick payments</li>
+                        <li>Viettel Money for secure transactions</li>
+                        <li>Ensured security and user-friendliness</li>
+                    </ul>
+                </td>
+                <td>OnePay Gateway, Payoo Gateway, ZaloPay Gateway, Viettel Money Gateway</td>
+            </tr>
+            <tr>
+                <td>Search Functionality</td>
+                <td>
+                    Integrated and optimized search tools to:
+                    <ul>
+                        <li>Improve product search speed</li>
+                        <li>Increase accuracy in search results</li>
+                        <li>Provide smart search suggestions</li>
+                    </ul>
+                </td>
+                <td>Elasticsearch</td>
+            </tr>
+            <tr>
+                <td>Maintenance and Bug Fixing</td>
+                <td>
+                    Participated in:
+                    <ul>
+                        <li>Fixing bugs and resolving issues</li>
+                        <li>Maintaining the website for stable operation</li>
+                        <li>Minimizing downtime and enhancing user experience</li>
+                    </ul>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Deployment Support</td>
+                <td>
+                    Assisted other developers in deploying applications to the server by:
+                    <ul>
+                        <li>Coordinating deployment processes</li>
+                        <li>Ensuring environment configurations were correct</li>
+                        <li>Conducting post-deployment checks for functionality</li>
+                    </ul>
+                </td>
+                <td>GitLab, CI/CD Tools</td>
+            </tr>
+        </table>
+</div>
+</section>
+    <section class="projects">
+        <h3>PERSONAL PROJECTS</h3>
         <div class="project">
           <div class="content-align">
             <span class="spLeft">E-commerce Website That Sells Clothing <span class="spCenter"> - PHP Developer Intern</span></span>
@@ -269,20 +426,26 @@ span.spRight
         <h3>SKILLS</h3>
         <ul class="wrap">
             <li>HTML / HTML5</li>
-            <li>CSS / CSS3</li>
-            <li>PHP</li>
-            <li>Javascript ES6</li>
-            <li>SCSS</li>
-            <li>Bootstrap</li>
-            <li>RESTFul API</li>
-            <li>Axios API</li>
+            <li>CSS / CSS3 / SCSS</li>
+            <li>Tailwind / Bootstrap</li>
+            <li>ReactJS (Component, Hook, Redux Toolkit, Redux Saga,...)</li>
+            <li>NextJs (SSR, CSR,...) </li>
+            <li>Ant Design / Mantine / MaterialUi</li>
+            <li>NodeJS (ExpressJS, NestJS)</li>
+            <li>Javascript ES6 / Typescript</li>
+            <li>RabbitMQ / Redis Cache</li>
+            <li>Microserice</li>
+            <li>ELK Skill (ElasticS earch - Logstash - Kibana)</li>
+            <li>Grafana</li>
+            <li>RESTFul API / GraphQL API</li>
             <li>Swagger</li>
-            <li>ReactJS (Component, Hook, Redux Toolkit,...)</li>
-            <li>NodeJS (ExpressJS, NestJS, NodeORM, REST API,...)</li>
-            <li>SocketIO</li>
-            <li>MySQL</li>
-            <li>GitHub, Vercel</li>
-            <li>Docker, Postman, TablePlus, VS Code</li>
+            <li>PHP (Lavarel, Mangento, Wordpress)</li>
+            <li>MySQL / PostgreSQL / MongoDB</li>
+            <li>Terminus / Process Manager (PM2)</li>
+            <li>Linux / Ubuntu</li>
+            <li>TypeORM / PrismaORM</li>
+            <li>GitHub, GitLab, Jira, Vercel</li>
+            <li>CI/CD Docker, Postman</li>
 
             </ul>
      </section>
@@ -306,7 +469,9 @@ span.spRight
         </div>
           </div>
           <ul class="wrap">
-            <li>Current GPA 85/100</li>
+            <li>Current GPA 9.5/10</li>
+            <li>Top 2 students in the Node.js class and Top 3 students in the Frontend class are the outstanding participants in the program due to their exceptional academic excellence.
+            </li>
 
           </ul>
       </div>
