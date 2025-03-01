@@ -1,319 +1,317 @@
-html
-{
-    width: 45%;
-    max-width:45%;
-    margin: auto;
+html {
+  width: 45%;
+  max-width: 45%;
+  margin: auto;
 }
 @font-face {
-    src: url(/MyCv/templates/1077/fonts/SVN-SegoePrint.ttf);
-    font-family: "Segoe Print"
+  src: url(/MyCv/templates/1077/fonts/SVN-SegoePrint.ttf);
+  font-family: 'Segoe Print';
 }
 
-body.page-preview,body.page-view,body.page-viewdemo {
-    background: url(/images3/bg-cv/4.jpg) no-repeat;
-    background-size: cover;
-    background-attachment: fixed
+body.page-preview,
+body.page-view,
+body.page-viewdemo {
+  background: url(/images3/bg-cv/4.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
-p
-{
-    margin: 0 0 5px;
+p {
+  margin: 0 0 5px;
 }
 .pageCV {
-    background: #fff;
-    max-width: 100%;
-    color: #19393e
+  background: #fff;
+  max-width: 100%;
+  color: #19393e;
 }
 
 .col_top {
-    max-width: 100%;
-    width: 100%
+  max-width: 100%;
+  width: 100%;
 }
 
 .col_top .h-curent {
-    padding: 30px 65px;
-    min-height: 180px;
-    position: relative
+  padding: 30px 65px;
+  min-height: 180px;
+  position: relative;
 }
 
 .col_bottom {
-    max-width: 100%;
-    width: 100%
+  max-width: 100%;
+  width: 100%;
 }
 
-.pageCV:nth-child(n+2) #cv-top {
-    display: none
+.pageCV:nth-child(n + 2) #cv-top {
+  display: none;
 }
 
 .col_top .info1_col_top {
-    min-height: 120px;
-    color: #fff;
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    justify-content:center;
-    gap: 10px;
-    margin: auto 0;
+  min-height: 120px;
+  color: #fff;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin: auto 0;
 }
 
 .col_top .info1_col_top .namerel-info {
-    width: 100%;
-    max-width: 100%;
-    margin: 0
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
 }
 
 .info1_col_top .name-info {
-    width: 60%;
-    max-width: 60%;
-    text-transform: uppercase;
-    font-size: 30px;
-    display: flex;
-    justify-content: flex-end
+  width: 60%;
+  max-width: 60%;
+  text-transform: uppercase;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .col_top .info1_col_top .icoweb {
-    width: 100%;
-    max-width: 100%;
-    display: flex;
-    justify-content: flex-end
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .col_top .info1_col_top .icoweb .icoweb_job {
-    width: 60%;
-    max-width: 60%;
-    font-size: 20px;
-    font-style: italic;
-    display: flex;
-    justify-content: flex-end;
-    text-transform: capitalize
+  width: 60%;
+  max-width: 60%;
+  font-size: 20px;
+  font-style: italic;
+  display: flex;
+  justify-content: flex-end;
+  text-transform: capitalize;
 }
 
-.col_top .h-curent>.info2_col_top {
-    position: absolute;
-    top: 60px;
-    left: 65px;
-    width: 210px
+.col_top .h-curent > .info2_col_top {
+  position: absolute;
+  top: 60px;
+  left: 65px;
+  width: 210px;
 }
 
 .col_top .avatar .image_ava {
-    max-width: 210px;
-    width: 210px;
-    height: auto;
-    border-radius: 50%
+  max-width: 210px;
+  width: 210px;
+  height: auto;
+  border-radius: 50%;
 }
 
 .cv-main {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 100%
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
 }
 
 .pageCV:nth-child(1) .col_left .h-curent {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 .pageCV:nth-child(1) .col_right .h-curent {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
-.pageCV:nth-child(n+2) .col_left .h-curent {
-    padding: 50px 0 20px
+.pageCV:nth-child(n + 2) .col_left .h-curent {
+  padding: 50px 0 20px;
 }
 
-.pageCV:nth-child(n+2) .col_right .h-curent {
-    padding: 50px 0 20px
+.pageCV:nth-child(n + 2) .col_right .h-curent {
+  padding: 50px 0 20px;
 }
 
 .col_left {
-    width: 45%;
-    max-width: 45%
+  width: 45%;
+  max-width: 45%;
 }
 
 .col_left .height-content {
-    padding: 150px 20px 20px
+  padding: 150px 20px 20px;
 }
 
 .pageCV:nth-child(1) .col_left .height-content {
-    min-height: 922px
+  min-height: 922px;
 }
 
-.pageCV:nth-child(n+2) .col_left .height-content {
-    min-height: 1052px;
-    padding: 0 20px
+.pageCV:nth-child(n + 2) .col_left .height-content {
+  min-height: 1052px;
+  padding: 0 20px;
 }
 
 .col_right {
-    width: 55%;
-    max-width: 55%;
-    z-index: 1;
-    position: relative;
+  width: 55%;
+  max-width: 55%;
+  z-index: 1;
+  position: relative;
 }
 
 .col_right .height-content {
-    padding: 60px 20px 20px 0;
-    border-left: 1px solid #ddd;
+  padding: 60px 20px 20px 0;
+  border-left: 1px solid #ddd;
 }
 
 .pageCV:nth-child(1) .col_right .height-content {
-    min-height: 922px
+  min-height: 922px;
 }
 
-.pageCV:nth-child(n+2) .col_right .height-content {
-    min-height: 1052px;
-    padding: 0 20px 0 0
+.pageCV:nth-child(n + 2) .col_right .height-content {
+  min-height: 1052px;
+  padding: 0 20px 0 0;
 }
 
 .items_space {
-    width: 100%;
-    max-width: 100%;
-    margin-bottom: 30px
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 30px;
 }
 
-.info1_col_bottom,.info2_col_bottom {
-    padding: 0;
-    max-width: 100%
+.info1_col_bottom,
+.info2_col_bottom {
+  padding: 0;
+  max-width: 100%;
 }
 
 .tit-item {
-    font-size: 20px;
-    text-transform: uppercase;
-    line-height: 20px;
-    display: flex;
-    position: relative
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 20px;
+  display: flex;
+  position: relative;
 }
 
 .col_left .tit-item {
-    justify-content: center
+  justify-content: center;
 }
 
 .subinfo {
-    padding: 20px 0
+  padding: 20px 0;
 }
 
 .icoweb {
-    display: flex;
-    justify-content: space-between
+  display: flex;
+  justify-content: space-between;
 }
 
 .col_left .icoweb {
-    padding-bottom: 15px
+  padding-bottom: 15px;
 }
 
 .info1_col_bottom .icoweb-left {
-    width: 30%;
-    max-width: 30%;
-    font-weight: 500
+  width: 30%;
+  max-width: 30%;
+  font-weight: 500;
 }
 
 .info1_col_bottom .icoweb-right {
-    width: 70%;
-    max-width: 70%
+  width: 70%;
+  max-width: 70%;
 }
 
 .info2_col_bottom .icoweb-left {
-    max-width: 15%;
-    width: 22px;
-    height: 13px;
-    display: flex;
-    justify-content: center;
-    position: relative
+  max-width: 15%;
+  width: 22px;
+  height: 13px;
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 
 .info2_col_bottom .icoweb-left i {
-    color: #fff;
-    display: flex;
-    margin: auto
+  color: #fff;
+  display: flex;
+  margin: auto;
 }
 
 .info2_col_bottom .icoweb-right {
-    width: 85%;
-    max-width: 85%
+  width: 85%;
+  max-width: 85%;
 }
 
 .info2_col_bottom .icoweb-left:before {
-    content: "";
-    position: absolute;
-    top: -5px;
-    left: 0;
-    width: 0;
-    height: 0
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 0;
+  height: 0;
 }
 
 .info2_col_bottom .icoweb-left .fa-specical {
-    font-size: 12px
+  font-size: 12px;
 }
 
 .info2_col_bottom .icoweb-left:after {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 0;
-    height: 0
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 0;
 }
 
 .itemMore .listItem {
-    padding-top: 20px
+  padding-top: 20px;
 }
-
 
 .awardSub_left {
-    width: 5%;
-    font-size: 8px;
-    margin-top: 5px
+  width: 5%;
+  font-size: 8px;
+  margin-top: 5px;
 }
 
-
-
 .itemaward .listItem {
-    padding-top: 20px
+  padding-top: 20px;
 }
 
 .itemRef .listItem {
-    padding-top: 20px
+  padding-top: 20px;
 }
 
 .itemaward .subItem-award .item_Name {
-    width: 90%;
-    max-width: 90%;
-    padding-right: 10px
+  width: 90%;
+  max-width: 90%;
+  padding-right: 10px;
 }
 
 .itemaward .subItem-award .item_Time {
-    width: 12%;
-    max-width: 12%;
-    text-align: end
+  width: 12%;
+  max-width: 12%;
+  text-align: end;
 }
 
 .col_right .items_space {
-    padding-left: 10px
+  padding-left: 10px;
 }
 
 .ItemEdu .subItem {
-    display: flex
+  display: flex;
 }
 
 .icon_tit {
-    display: flex;
-    position: relative
+  display: flex;
+  position: relative;
 }
 
-.icon_tit>.icon_TitItem {
-    position: absolute;
-    top: 7px;
-    left: -16px;
-    font-size: 8px;
-    padding: 1px;
-    border-radius: 50%;
-    height: 12px;
-    max-width: 12px
+.icon_tit > .icon_TitItem {
+  position: absolute;
+  top: 7px;
+  left: -16px;
+  font-size: 8px;
+  padding: 1px;
+  border-radius: 50%;
+  height: 12px;
+  max-width: 12px;
 }
 
-.icon_tit>.line_tit {
-    position: absolute;
-    height: 19px;
-    width: 50px;
-    left: -8px;
-    top: -6px
+.icon_tit > .line_tit {
+  position: absolute;
+  height: 19px;
+  width: 50px;
+  left: -8px;
+  top: -6px;
 }
 /* .itemaward .icon_tit>.line_tit,
 .itemMore .icon_tit>.line_tit,
@@ -328,332 +326,337 @@ p
     justify-content:left;
 } */
 .fa-BeforeTit {
-    margin-right: 10px;
-    margin-left: 63px;
+  margin-right: 10px;
+  margin-left: 63px;
 }
 
 .col_right .subItem {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .ItemEdu .EduSub_left {
-    max-width: 20%;
-    width: 20%;
-    margin-right: 20px;
-    line-height: 14px
+  max-width: 20%;
+  width: 20%;
+  margin-right: 20px;
+  line-height: 14px;
 }
 .EduSub_right {
-    flex-grow: 1;
-    max-width: 72%;
-    width: 72%
+  flex-grow: 1;
+  max-width: 72%;
+  width: 72%;
 }
 
-.EduSub_right div:nth-child(n+1) {
-    margin-bottom: 5px
+.EduSub_right div:nth-child(n + 1) {
+  margin-bottom: 5px;
 }
 
 .EduSub_right div:last-child {
-    margin-bottom: 0
+  margin-bottom: 0;
 }
 
 .ItemExp .space_subTime {
-    margin: 0 5px;
+  margin: 0 5px;
 }
 
 .ItemEdu .space_subTime {
-    padding-left: 5px
+  padding-left: 5px;
 }
 
-.nameSubRight,.posSubRight {
-    font-weight: 500;
-    font-size: 16px
+.nameSubRight,
+.posSubRight {
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .ItemExp .listItem {
-    padding-left: 75px
+  padding-left: 75px;
 }
 
 .ItemExp .EduSub_left {
-    width: 17px;
-    font-size: 8px;
-    color: #000;
-    margin-top: 6px
+  width: 17px;
+  font-size: 8px;
+  color: #000;
+  margin-top: 6px;
 }
 
 .ItemExp .EduSub_right {
-    max-width: 95%;
-    width: 95%
+  max-width: 95%;
+  width: 95%;
 }
 
 .ItemExp .listItem .EduSub_right .subTime {
-    display: flex
+  display: flex;
 }
 
 .itemTar .listItem {
-    padding-top: 20px
+  padding-top: 20px;
 }
 
 .itemMore .listItem {
-    padding-top: 20px
+  padding-top: 20px;
 }
 
 .itemSkill .listItem {
-    padding-left: 95px
+  padding-left: 95px;
 }
 
 .itemSkill .subItem {
-    display: flex
+  display: flex;
 }
 
 .itemSkill .subItem .name_subSkill {
-    width: 30%;
-    max-width: 30%;
-    color: #000
+  width: 30%;
+  max-width: 30%;
+  color: #000;
 }
 
 .skill_val {
-    border: 1px solid #ddd;
-    height: 10px;
-    width: 70%;
-    max-width: 70%;
-    margin-top: 5px;
-    border-radius: 5px;
-    margin-left: 5px;
-    padding: 2px;
-    display: flex;
-    position: relative
+  border: 1px solid #ddd;
+  height: 10px;
+  width: 70%;
+  max-width: 70%;
+  margin-top: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+  padding: 2px;
+  display: flex;
+  position: relative;
 }
 
 .skillrate-value {
-    font-size: 10px;
-    margin-top: -3px
+  font-size: 10px;
+  margin-top: -3px;
 }
 
 .skill_val .skillrate-value:after {
-    margin-left: 3px
+  margin-left: 3px;
 }
 
-.skill_val .skillrate-value[value="1"] {
-    padding-left: 20%
+.skill_val .skillrate-value[value='1'] {
+  padding-left: 20%;
 }
 
-.skill_val .skillrate-value[value="1"]:after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 20.5%;
-    top: 3px;
-    left: 0
+.skill_val .skillrate-value[value='1']:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 20.5%;
+  top: 3px;
+  left: 0;
 }
 
-.skillrate-value[value="2"] {
-    padding-left: 40%
+.skillrate-value[value='2'] {
+  padding-left: 40%;
 }
 
-.skill_val .skillrate-value[value="2"]:after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 40.5%;
-    top: 3px;
-    left: 0%
+.skill_val .skillrate-value[value='2']:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 40.5%;
+  top: 3px;
+  left: 0%;
 }
 
-.skill_val .skillrate-value[value="3"] {
-    padding-left: 60%
+.skill_val .skillrate-value[value='3'] {
+  padding-left: 60%;
 }
 
-.skill_val .skillrate-value[value="3"]:after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 60.5%;
-    top: 3px;
-    left: 0%
+.skill_val .skillrate-value[value='3']:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 60.5%;
+  top: 3px;
+  left: 0%;
 }
 
-.skillrate-value[value="4"] {
-    padding-left: 80%
+.skillrate-value[value='4'] {
+  padding-left: 80%;
 }
 
-.skill_val .skillrate-value[value="4"]:after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 80.5%;
-    top: 3px;
-    left: 0%
+.skill_val .skillrate-value[value='4']:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 80.5%;
+  top: 3px;
+  left: 0%;
 }
 
-.skillrate-value[value="5"] {
-    padding-left: 96%
+.skillrate-value[value='5'] {
+  padding-left: 96%;
 }
 
-.skill_val .skillrate-value[value="5"]:after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 96.5%;
-    top: 3px;
-    left: 0%
+.skill_val .skillrate-value[value='5']:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 96.5%;
+  top: 3px;
+  left: 0%;
 }
 
 .col_left .items_space:last-child {
-    margin-bottom: unset
+  margin-bottom: unset;
 }
 
 .col_right .items_space:last-child {
-    margin-bottom: unset
+  margin-bottom: unset;
 }
 
 .name_ref {
-    display: inline-block;
-    width: 100%
+  display: inline-block;
+  width: 100%;
 }
 
 .EduSub_left {
-    color: #1f5759
+  color: #1f5759;
 }
 
 .posSubRight {
-    color: #175b5c
+  color: #175b5c;
 }
 
 .desSubRight {
-    color: #19393e
+  color: #19393e;
 }
 
 .page:last-child #cv-watermark {
-    display: block!important;
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    font-family: 'roboto','serif'
+  display: block !important;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-family: 'roboto', 'serif';
 }
 
 #cv-watermark a:after {
-    content: "Joboko.com"
+  content: 'Joboko.com';
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
+  html {
+    width: 900px !important;
+  }
 }
 
 @media screen and (max-width: 780px) {
-    .info1_col_bottom {
-        padding-top:120px
-    }
+  .info1_col_bottom {
+    padding-top: 120px;
+  }
 
-    .content_col_bottom {
-        display: block;
-        width: 100%;
-        max-width: 100%
-    }
+  .content_col_bottom {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
 
-    .col_left,.col_right {
-        width: 100%;
-        max-width: 100%
-    }
+  .col_left,
+  .col_right {
+    width: 100%;
+    max-width: 100%;
+  }
 
-    .col_left .height-content {
-        padding: 40px 20px 20px
-    }
+  .col_left .height-content {
+    padding: 40px 20px 20px;
+  }
 
-    .col_right .height-content {
-        padding: 20px 20px 40px;
-        border-left: unset
-    }
+  .col_right .height-content {
+    padding: 20px 20px 40px;
+    border-left: unset;
+  }
 
-    .pageCV:nth-child(1) .col_left .height-content {
-        min-height: unset
-    }
+  .pageCV:nth-child(1) .col_left .height-content {
+    min-height: unset;
+  }
 
-    .pageCV:nth-child(n+2) .col_left .height-content {
-        min-height: unset
-    }
+  .pageCV:nth-child(n + 2) .col_left .height-content {
+    min-height: unset;
+  }
 
-    .pageCV:nth-child(1) .col_right .height-content {
-        min-height: unset
-    }
+  .pageCV:nth-child(1) .col_right .height-content {
+    min-height: unset;
+  }
 
-    .pageCV:nth-child(n+2) .col_right .height-content {
-        min-height: unset
-    }
+  .pageCV:nth-child(n + 2) .col_right .height-content {
+    min-height: unset;
+  }
 }
 
 @media screen and (max-width: 680px) {
-    .col_top .h-curent>.info2_col_top {
-        top:145px
-    }
+  .col_top .h-curent > .info2_col_top {
+    top: 145px;
+  }
 
-    .col_top .info1_col_top .namerel-info {
-        justify-content: center
-    }
+  .col_top .info1_col_top .namerel-info {
+    justify-content: center;
+  }
 
-    .col_top .info1_col_top .icoweb {
-        justify-content: center
-    }
+  .col_top .info1_col_top .icoweb {
+    justify-content: center;
+  }
 
-    .info1_col_bottom {
-        padding-top: 260px
-    }
+  .info1_col_bottom {
+    padding-top: 260px;
+  }
 
-    .col_top .info2_col_top {
-        position: relative;
-        top: 20px;
-        left: unset;
-        display: flex;
-        margin: auto;
-        justify-content: center
-    }
+  .col_top .info2_col_top {
+    position: relative;
+    top: 20px;
+    left: unset;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
 
-    .info1_col_top .name-info {
-        justify-content: center;
-        max-width: 100%;
-        width: 100%
-    }
+  .info1_col_top .name-info {
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+  }
 
-    .col_top .info1_col_top .icoweb .icoweb_job {
-        max-width: 100%;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
+  .col_top .info1_col_top .icoweb .icoweb_job {
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .col_right .items_space {
-        padding-left: unset
-    }
+  .col_right .items_space {
+    padding-left: unset;
+  }
 
-    .line_tit {
-        width: 30px
-    }
-    
-    .fa-BeforeTit {
-        left: 0px
-    }
-    .EduSub_left {
-        display: block
-    }
+  .line_tit {
+    width: 30px;
+  }
 
-    .EduSub_left {
-        left: -71px;
-        max-width: 60px
-    }
+  .fa-BeforeTit {
+    left: 0px;
+  }
+  .EduSub_left {
+    display: block;
+  }
 
-    .ItemExp .listItem {
-        padding-left: 15px
-    }
+  .EduSub_left {
+    left: -71px;
+    max-width: 60px;
+  }
 
-    .itemSkill .listItem {
-        padding-left: 15px
-    }
+  .ItemExp .listItem {
+    padding-left: 15px;
+  }
+
+  .itemSkill .listItem {
+    padding-left: 15px;
+  }
 }
 
 @media screen and (max-width: 470px) {
-    .tit-item {
-        font-size:18px
-    }
+  .tit-item {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -666,114 +669,119 @@ p
 }
 
 .subItem-column {
-    margin-top: 20px
+  margin-top: 20px;
 }
 
 .subItem-column .skill_val {
-    margin-left: 0
+  margin-left: 0;
 }
 
-[contentEditable=true]:empty {
-    outline: 1pt dashed #fc4b08!important
+[contentEditable='true']:empty {
+  outline: 1pt dashed #fc4b08 !important;
 }
 
-#cv-document .height-curent [data-x-name=group-item] {
-    padding-bottom: 30px
+#cv-document .height-curent [data-x-name='group-item'] {
+  padding-bottom: 30px;
 }
 
-#cv-document .education__item-text,#cv-document .experience__item-text,#cv-document .action__item-text,#cv-document .target,#cv-document .more,#cv-document .cletter {
-    line-height: 24px
+#cv-document .education__item-text,
+#cv-document .experience__item-text,
+#cv-document .action__item-text,
+#cv-document .target,
+#cv-document .more,
+#cv-document .cletter {
+  line-height: 24px;
 }
 
 .col_top .h-curent {
-    background: #19393e
+  background: #19393e;
 }
 
 .tit-item {
-    color: #19393e
+  color: #19393e;
 }
 
 .info2_col_bottom .icoweb-left {
-    background: #19393e
+  background: #19393e;
 }
 
 .info2_col_bottom .icoweb-left:before {
-    border-left: 11px solid transparent;
-    border-right: 11px solid transparent;
-    border-bottom: 5px solid #19393e
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-bottom: 5px solid #19393e;
 }
 
 .info2_col_bottom .icoweb-left:after {
-    border-left: 11px solid transparent;
-    border-right: 11px solid transparent;
-    border-top: 5px solid #19393e
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-top: 5px solid #19393e;
 }
 
-.icon_tit>.icon_TitItem {
-    color: #19393e;
-    border: 1px solid #19393e
+.icon_tit > .icon_TitItem {
+  color: #19393e;
+  border: 1px solid #19393e;
 }
 
 .line_tit {
-    border-bottom: 1px solid #19393e
+  border-bottom: 1px solid #19393e;
 }
 
 .skillrate-value {
-    color: #19393e
+  color: #19393e;
 }
 
 .skill_val .skillrate-value:after {
-    border-top: 2px solid #19393e
+  border-top: 2px solid #19393e;
 }
 
 #form-cv {
-    font-family: 'Arial',sans-serif
+  font-family: 'Arial', sans-serif;
 }
 
 .bd-title {
-    font-size: 17px!important
+  font-size: 17px !important;
 }
 
 #cv-document .txt1 {
-    font-size: 16px
+  font-size: 16px;
 }
 
 #cv-document .txt4 {
-    font-size: 14px
+  font-size: 14px;
 }
 
 #cv-document .txt3 {
-    font-size: 16px!important
+  font-size: 16px !important;
 }
 
 #cv-document .txt-content {
-    font-size: 14px
+  font-size: 14px;
 }
 
 #cv-document .txt-job {
-    font-size: 17px
+  font-size: 17px;
 }
 
 #cv-document .txt-name {
-    font-size: 26px
+  font-size: 26px;
 }
 
 #cv-document .txt2 {
-    width: 25%;
-    font-size: 12px;
-    max-width: initial
+  width: 25%;
+  font-size: 12px;
+  max-width: initial;
 }
 
 @media only screen and (max-width: 600px) {
-    #cv-document .txt2 {
-        width:100%
-    }
+  #cv-document .txt2 {
+    width: 100%;
+  }
 }
 
 #cv-document .contright {
-    flex: auto
+  flex: auto;
 }
 
 #cv-document .txt-content {
-    line-height: 20px
+  line-height: 20px;
 }
