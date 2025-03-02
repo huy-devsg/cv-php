@@ -21,6 +21,10 @@ body.page-viewdemo {
 p {
   margin: 0 0 5px;
 }
+a {
+  text-decoration: underline !important;
+  color: #000;
+}
 .pageCV {
   background: #fff;
   max-width: 100%;
@@ -640,11 +644,6 @@ h2 {
 /* .job p, .project p, .school p {
   margin: 0;
 } */
-
-.project a {
-  text-decoration: none;
-  color: #0074d9;
-}
 
 .content-align {
   display: flex;
