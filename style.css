@@ -1,6 +1,4 @@
 html {
-  /* width: 45%;
-  max-width: 45%; */
   margin: auto;
 }
 @font-face {
@@ -10,7 +8,6 @@ html {
 body {
   padding: 25px;
   background-color: #f5f5f5;
-  width: 90%;
   margin: 0 auto;
   border: solid 1px black;
 }
@@ -548,10 +545,11 @@ header {
   color: #000;
   text-align: center;
   position: relative;
-  margin-bottom: 40px;
+  margin: 0 auto 40px;
+  display: flex;
+  justify-content: space-between;
 }
 .avatar {
-  position: absolute;
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -580,14 +578,17 @@ h2 {
 
 .contact {
   border-radius: 5px;
+  overflow-x: scroll;
   text-align: center;
   & ul {
     display: flex;
     padding: 0;
+    gap: 8px;
     flex-direction: row;
 
     justify-content: space-between;
     & li {
+      text-wrap: nowrap;
       list-style: none;
       color: #000000de;
       font-size: 15px;
@@ -670,7 +671,6 @@ span.spRight {
   color: #666666;
 }
 .wrap {
-  margin: 5px;
   & li {
     padding: 2px 0;
     color: #000000de;
@@ -706,16 +706,29 @@ td::after {
 th {
   background-color: #f2f2f2;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 668px) {
   /* html {
     width: 900px !important;
   } */
+  ::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  header {
+    justify-content: space-between;
+    gap: 100px;
+  }
 }
 
 @media screen and (max-width: 780px) {
   /* html {
     width: 100% !important;
   } */
+  * {
+    font-size: 14px !important;
+  }
   .info1_col_bottom {
     padding-top: 120px;
   }
@@ -827,8 +840,29 @@ th {
 }
 
 @media screen and (max-width: 470px) {
+  body {
+    padding: 16px;
+  }
   .tit-item {
     font-size: 18px;
+  }
+  header {
+    margin-bottom: 0 !important;
+  }
+  .avatar {
+    width: 80px;
+    height: 80px;
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .title h1 {
+    font-size: 24px !important;
+  }
+  .title h2 {
+    font-size: 18px !important;
   }
 }
 
